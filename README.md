@@ -5,7 +5,7 @@ RFM Analysis is a marketing technique that segments customers based on:
 - Frequency (F): How often they purchase
 - Monetary Value (M): How much money they spend
 
-## Objective
+## Steps Invloved
 
 We performed the below analysis using the data :
 

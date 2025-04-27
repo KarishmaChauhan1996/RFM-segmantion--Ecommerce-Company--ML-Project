@@ -28,11 +28,10 @@ We performed the below analysis using the data :
   - Understand the profiles. Define strategy for each 
 segment.  
 ### Predicting Customer Lifetime Value (Low Value/Medium Value/High Value)
-- First define dependent variable with categories low value, medium value, high value 
-using customer revenue.
+- First define dependent variable with categories low value, medium value, high value using customer revenue.
 - Then perform Classification model 
 ### Cross-Selling (Which products are selling together) 
-- You can perform exploratory analysis & market basket analysis to understand which of items can be bundled together. 
+- We  performed exploratory analysis & market basket analysis to understand which of items can be bundled together. 
 ### Predicting Next Purchase Day
 - (How soon each customer can visit the store (0-30 days, 30-60 days, 60-90 days, 90+ days)
 - For this, we need create dependent variable at customer level (average days per one transaction for only repeat customers and divide into groups 0-30 days, 30-60 days, 60-90 days and 90+ days) then build classification model to predict next purchase of given customer. 

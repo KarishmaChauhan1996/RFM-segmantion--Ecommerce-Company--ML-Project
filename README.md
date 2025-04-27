@@ -1,7 +1,9 @@
 # Overview 
-We have data from an  E-Commerce Company which we utilized to gain  marketing insights to 
-define marketing strategies going forward.  This project applies RFM Analysis (Recency, Frequency, Monetary) to an e-commerce dataset to segment customers based on their purchasing behavior.
-The goal is to identify and target different customer groups for marketing strategies, loyalty programs, retention efforts, and personalized offers.
+We have data from an  E-Commerce Company which we utilized to gain  marketing insights to define marketing strategies going forward.  This project applies RFM Analysis (Recency, Frequency, Monetary) to an e-commerce dataset to segment customers based on their purchasing behavior. The goal is to identify and target different customer groups for marketing strategies, loyalty programs, retention efforts, and personalized offers.
+RFM Analysis is a marketing technique that segments customers based on:
+- Recency (R): How recently a customer made a purchase
+- Frequency (F): How often they purchase
+- Monetary Value (M): How much money they spend
 
 ## Objective
 
@@ -34,31 +36,22 @@ of items can be bundled together.
 6. Predicting Next Purchase Day(How soon each customer can visit the store (0-30 days, 30-60 
 days, 60-90 days, 90+ days) 
  For this, we need create dependent variable at customer level (average days per one 
-transaction for only repeat customers and divide into groups 0-30 days, 30-60 days,  
-60-90 days and 90+ days) then build classification model to predict next purchase of 
-given customer. 
+transaction for only repeat customers and divide into groups 0-30 days, 30-60 days, 60-90 days and 90+ days) then build classification model to predict next purchase of given customer. 
 7. Perform cohort analysis by defining below cohorts
 - Customers who started in each month and understand their behaviour  
 - Which Month cohort has maximum retention?
 
 ### Key Definitions: 
-Invoice Value:  Invoice Value =(( Quantity*Avg_price)*(1-Dicount_pct)*(1+GST))+Delivery_Charges 
-Average order value = Revenue / Transaction per customer 
+- Invoice Value:  Invoice Value =(( Quantity*Avg_price)*(1-Dicount_pct)*(1+GST))+Delivery_Charges 
+- Average order value = Revenue / Transaction per customer 
  
-Profit Margin Profit margin is the commonly used profitability ratio. It represents how much 
-percentage of total sales has earned as the gain. 
- 
-Purchase Frequency is the average number of purchases made by a customer over a defined period 
-of time (typically one month or one year). It is the sum of total number transactions divided by total 
-number customers. 
- 
-Repeat rate shows you the percentage of your current customer base that has come back to shop 
-again. 
- 
-Churn Rate is the annual percentage rate at which customers stop subscribing. 
- 
-Customer lifetime value, lifetime customer value, or life-time value is a prediction of the net 
-profit/revenue attributed to the entire future relationship with a customer. 
+- Profit Margin Profit margin is the commonly used profitability ratio. It represents how much 
+percentage of total sales has earned as the gain.
+- Purchase Frequency is the average number of purchases made by a customer over a defined period of time (typically one month or one year). It is the sum of total number transactions divided by total number customers.
+- Repeat rate shows you the percentage of your current customer base that has come back to shop 
+again.
+- Churn Rate is the annual percentage rate at which customers stop subscribing.
+- Customer lifetime value, lifetime customer value, or life-time value is a prediction of the net profit/revenue attributed to the entire future relationship with a customer. 
 
 ### Data: 
 Transaction data has been provided for the period of 1st Jan 2019 to 31st Dec 2019. The below data 

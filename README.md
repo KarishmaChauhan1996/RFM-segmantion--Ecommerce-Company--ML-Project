@@ -1,5 +1,5 @@
 # Overview 
-We have data from an  E-Commerce Company which we utilized to gain  marketing insights to define marketing strategies going forward.  This project applies RFM Analysis (Recency, Frequency, Monetary) to an e-commerce dataset to segment customers based on their purchasing behavior. The goal is to identify and target different customer groups for marketing strategies, loyalty programs, retention efforts, and personalized offers.
+We have data from an  E-Commerce Company which we utilized to gain marketing insights.  This project applies RFM Analysis (Recency, Frequency, Monetary) to given dataset to segment customers based on their purchasing behavior. The goal is to identify and target different customer groups for marketing strategies, loyalty programs, retention efforts, and personalized offers.
 RFM Analysis is a marketing technique that segments customers based on:
 - Recency (R): How recently a customer made a purchase
 - Frequency (F): How often they purchase

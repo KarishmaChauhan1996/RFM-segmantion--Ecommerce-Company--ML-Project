@@ -32,8 +32,7 @@ segment.
 using customer revenue.
 - Then perform Classification model 
 ### Cross-Selling (Which products are selling together) 
- You can perform exploratory analysis & market basket analysis to understand which 
-of items can be bundled together. 
+- You can perform exploratory analysis & market basket analysis to understand which of items can be bundled together. 
 ### Predicting Next Purchase Day
 - (How soon each customer can visit the store (0-30 days, 30-60 days, 60-90 days, 90+ days)
 - For this, we need create dependent variable at customer level (average days per one transaction for only repeat customers and divide into groups 0-30 days, 30-60 days, 60-90 days and 90+ days) then build classification model to predict next purchase of given customer. 
@@ -45,11 +44,9 @@ of items can be bundled together.
 - Invoice Value:  Invoice Value =(( Quantity*Avg_price)*(1-Dicount_pct)*(1+GST))+Delivery_Charges 
 - Average order value = Revenue / Transaction per customer 
  
-- Profit Margin Profit margin is the commonly used profitability ratio. It represents how much 
-percentage of total sales has earned as the gain.
+- Profit Margin Profit margin is the commonly used profitability ratio. It represents how much percentage of total sales has earned as the gain.
 - Purchase Frequency is the average number of purchases made by a customer over a defined period of time (typically one month or one year). It is the sum of total number transactions divided by total number customers.
-- Repeat rate shows you the percentage of your current customer base that has come back to shop 
-again.
+- Repeat rate shows you the percentage of your current customer base that has come back to shop again.
 - Churn Rate is the annual percentage rate at which customers stop subscribing.
 - Customer lifetime value, lifetime customer value, or life-time value is a prediction of the net profit/revenue attributed to the entire future relationship with a customer. 
 
@@ -58,7 +55,7 @@ Transaction data has been provided for the period of 1st Jan 2019 to 31st Dec 20
 sets have been provided.  
 Online_Sales.csv: This file contains actual orders data (point of Sales data) at transaction level with 
 below variables. 
-CustomerID: Customer unique ID 
+- CustomerID: Customer unique ID 
 Transaction_ID: Transaction Unique ID 
 Transaction_Date: Date of Transaction 
 Product_SKU: SKU ID – Unique Id for product 

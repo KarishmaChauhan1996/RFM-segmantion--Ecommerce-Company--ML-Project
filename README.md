@@ -22,22 +22,23 @@ We performed the below analysis using the data :
 - How marketing spend is impacting on revenue?
 - Which product was appeared in the transactions?
 - Which product was purchased mostly based on the quantity?
-3. Performing Customer Segmentation
-  - Heuristic (Value based, RFM) – Divide the customers into Premium, Gold, Silver, Standard customers and define strategy on the same.
-  - Scientific (Using K-Means) & Understand the profiles. Define strategy for each 
+### Performing Customer Segmentation
+  - ### Heuristic (Value based, RFM)
+  -  Divide the customers into Premium, Gold, Silver, Standard customers and define strategy on the same.
+  - #### Scientific (Using K-Means)
+  - Understand the profiles. Define strategy for each 
 segment.  
-4. Predicting Customer Lifetime Value (Low Value/Medium Value/High Value)
+### Predicting Customer Lifetime Value (Low Value/Medium Value/High Value)
 - First define dependent variable with categories low value, medium value, high value 
 using customer revenue.
 - Then perform Classification model 
-5. Cross-Selling (Which products are selling together) 
+### Cross-Selling (Which products are selling together) 
  You can perform exploratory analysis & market basket analysis to understand which 
 of items can be bundled together. 
-6. Predicting Next Purchase Day(How soon each customer can visit the store (0-30 days, 30-60 
-days, 60-90 days, 90+ days) 
- For this, we need create dependent variable at customer level (average days per one 
-transaction for only repeat customers and divide into groups 0-30 days, 30-60 days, 60-90 days and 90+ days) then build classification model to predict next purchase of given customer. 
-7. Perform cohort analysis by defining below cohorts
+### Predicting Next Purchase Day
+- (How soon each customer can visit the store (0-30 days, 30-60 days, 60-90 days, 90+ days)
+- For this, we need create dependent variable at customer level (average days per one transaction for only repeat customers and divide into groups 0-30 days, 30-60 days, 60-90 days and 90+ days) then build classification model to predict next purchase of given customer. 
+### Perform cohort analysis by defining below cohorts
 - Customers who started in each month and understand their behaviour  
 - Which Month cohort has maximum retention?
 

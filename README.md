@@ -9,8 +9,7 @@ RFM Analysis is a marketing technique that segments customers based on:
 
 We performed the below analysis using the data :
 
-1. Calculate Invoice amount  or sale_amount  or revenue for each transaction and item level 
-2. Perform Detailed exploratory analysis
+### Perform Detailed exploratory analysis
 - Understanding how many customers acquired every month.
 - Understand the retention of customers on month on month basis
 - How the revenues from existing/new customers on month on month basis
@@ -23,7 +22,7 @@ We performed the below analysis using the data :
 - Which product was appeared in the transactions?
 - Which product was purchased mostly based on the quantity?
 ### Performing Customer Segmentation
-  - ### Heuristic (Value based, RFM)
+  - #### Heuristic (Value based, RFM)
   -  Divide the customers into Premium, Gold, Silver, Standard customers and define strategy on the same.
   - #### Scientific (Using K-Means)
   - Understand the profiles. Define strategy for each 
